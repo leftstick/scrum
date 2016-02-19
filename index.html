@@ -21,6 +21,16 @@
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style>
+            .reveal blockquote{
+            	font-size: 24px;
+            }
+
+			.reveal ul{
+				font-size: 24px;
+			}
+		</style>
+
 
 
 		<!--[if lt IE 9]>
@@ -44,34 +54,39 @@
 
 				<section>
 					<h2>过去我们忍受了什么</h2>
-					<ul>
-						<li>无序作业</li>
-						<li>瀑布式</li>
-					</ul>
+					<blockquote>
+						无序作业
+					</blockquote>
+					<img src="img/trouble.jpeg" alt="">
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="img/arrow.png" alt="Down arrow">
-						</a>
+						<h2>工作法</h2>
+						<ul>
+							<li><a href="#/2/1">瀑布式开发</a></li>
+							<li><a href="#/2/2">迭代开发</a></li>
+							<li><a href="#/2/3">敏捷开发</a></li>
+						</ul>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+						<h2>瀑布式开发</h2>
+						<blockquote>
+							是最典型的预见性的方法，严格遵循预先计划的需求、分析、设计、编码、测试的步骤顺序进行。步骤成果作为衡量进度的方法，例如需求规格，设计文档，测试计划和代码审阅等等，确定如下：
+						</blockquote>
+                        <ul>
+                        	<li>划分阶段，各阶段串行链接，时间跨度大，效率低</li>
+                        	<li>各阶段以来输出文档以证明成果，消耗大</li>
+                        	<li>由于开发模型是线性的，用户只有等到整个过程的末期才能见到开发成果，从而增加了开发风险</li>
+                        	<li>通过过多的强制完成日期和里程碑来跟踪各个项目阶段</li>
+                        	<li>不能及时响应用户需求的变化</li>
+                        </ul>
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="img/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
+						<h2>迭代开发</h2>
+                        <ul>
+                        </ul>
 					</section>
 				</section>
 
